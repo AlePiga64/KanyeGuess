@@ -114,7 +114,7 @@ function randomBars() {
     randomB = Math.max(randomB - 3, 0); // Assicuriamoci che randomB non vada sotto 0
   }
 
-  if (err != 0) { // Se err non è uguale a 0, mostriamo i 4 elementi casuali
+  if (err != 0) {
     bars.push(
       song[randomB] + "<br>" + 
       song[randomB + 1] + "<br>" + 
